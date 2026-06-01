@@ -1,4 +1,5 @@
 package com.apexmusic.ui.screens
+import androidx.wear.compose.material3.ProgressIndicatorDefaults
 import androidx.compose.material.icons.Icons
 
 import androidx.compose.foundation.background
@@ -158,8 +159,6 @@ fun PlayerScreen(viewModel: MusicViewModel) {
                             .fillMaxWidth()
                             .height(3.dp)
                             .clip(RoundedCornerShape(2.dp)),
-                        color = ApexAccent,
-                        trackColor = ApexDivider
                     )
                     Row(
                         modifier = Modifier.fillMaxWidth(),
