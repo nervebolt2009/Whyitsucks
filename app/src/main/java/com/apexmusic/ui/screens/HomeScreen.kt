@@ -1,4 +1,7 @@
 package com.apexmusic.ui.screens
+import androidx.wear.compose.material.ChipDefaults
+import androidx.wear.compose.material.Chip
+import androidx.compose.material.icons.Icons
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*

@@ -1,4 +1,7 @@
 package com.apexmusic.ui.components
+import androidx.wear.compose.material.TwoSlotChip
+import androidx.wear.compose.material.ChipDefaults
+import androidx.compose.material.icons.Icons
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*

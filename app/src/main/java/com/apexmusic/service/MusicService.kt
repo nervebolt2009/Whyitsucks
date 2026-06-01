@@ -40,7 +40,7 @@ class MusicService : MediaSessionService() {
                 // ── AUDIO OFFLOAD: biggest battery win on Wear OS ──────────────
                 // Allows audio to be processed by dedicated hardware DSP,
                 // CPU can sleep → extends battery life significantly
-                exoPlayer.experimentalSetOffloadSchedulingEnabled(true)
+                exoPlayer.setExperimentalAudioOffloadSchedulingEnabled(true)
 
                 exoPlayer.trackSelectionParameters =
                     exoPlayer.trackSelectionParameters
